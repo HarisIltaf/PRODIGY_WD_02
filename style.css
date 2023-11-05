@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+
+box-sizing: border-box;}
+
+
+body{
+    background-color: rgb(73, 38, 38);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(177, 99, 99);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px #d9d9d9,
+    -20px -20px 60px white;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.display{
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: inset 20px 20px 20px #d9d9d9,
+    inset -20px -20px 60px white;
+}
+button{
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px; 
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    box-shadow: 20px 20px 20px #d9d9d9,
+    -20px -20px 60px white;
+
+    transition: all 0.2s ease-in-out;
+
+}
+button:hover{
+    transition: translate (5px 5px);
+    box-shadow: 5px 5px 5px #d9d9d9,
+    -5px -5px 15px white;
+}
+
+.Start{
+    background-color: #73c7ac;
+    color: white;
+}
+
+.Stop{
+    background-color: #e77e8c;
+    color: white;
+}
+.Reset{
+    background-color: #f7af5a;
+    color: white;
+}
